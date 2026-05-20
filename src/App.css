@@ -1,0 +1,29 @@
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.card {
+  width: min(680px, 92vw);
+  padding: 3rem 2.25rem;
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 18px 40px rgba(2, 8, 23, 0.35);
+  text-align: center;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  letter-spacing: 0.3px;
+}
+
+.card p {
+  margin: 0.85rem 0 0;
+  opacity: 0.9;
+  font-size: clamp(1rem, 2vw, 1.1rem);
+}
